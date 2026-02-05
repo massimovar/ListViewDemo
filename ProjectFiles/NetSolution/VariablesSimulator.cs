@@ -2,6 +2,9 @@
 using System;
 using UAManagedCore;
 using FTOptix.NetLogic;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
+using FTOptix.RecipeX;
 #endregion
 
 public class VariablesSimulator : BaseNetLogic
