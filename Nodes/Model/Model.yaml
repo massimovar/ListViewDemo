@@ -3,3 +3,4 @@ Type: ModelCategoryFolder
 Children:
 - File: MyTypes/MyTypes.yaml
 - File: MixedModels/MixedModels.yaml
+- File: Folder1/Folder1.yaml
