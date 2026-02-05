@@ -1,0 +1,23 @@
+Name: MyTypes
+Type: FolderType
+Children:
+- Name: Motor
+  Id: g=6fc17fcb044d426bbec31c2239dd3859
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Pump
+  Id: g=7f73e3189c567f4ab5304c10a379842f
+  Supertype: BaseObjectType
+  Children:
+  - Name: Pressure
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: WaterLevel
+    Type: BaseDataVariableType
+    DataType: Int32

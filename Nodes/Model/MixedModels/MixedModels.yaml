@@ -1,0 +1,100 @@
+Name: MixedModels
+Type: FolderType
+Children:
+- Name: Motor1
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Motor2
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Motor3
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Motor4
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Motor5
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Pump1
+  Type: Pump
+  Children:
+  - Name: Pressure
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: WaterLevel
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Pump2
+  Type: Pump
+  Children:
+  - Name: Pressure
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: WaterLevel
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Pump3
+  Type: Pump
+  Children:
+  - Name: Pressure
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: WaterLevel
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Pump4
+  Type: Pump
+  Children:
+  - Name: Pressure
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: WaterLevel
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 20
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 30
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 40
