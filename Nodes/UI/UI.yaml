@@ -122,6 +122,11 @@ Children:
     Children:
     - Name: Default
       Type: NavigationPanelStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
   - Name: ChartStyles
     Type: BaseObjectType
     Children:
@@ -353,6 +358,16 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+    - Name: TabHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: TabWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - Name: MotorRow
