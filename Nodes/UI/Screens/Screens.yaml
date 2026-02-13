@@ -2003,7 +2003,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 130.0
   - Name: DataGrid2
     Type: DataGrid
     Children:
@@ -2173,7 +2173,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 130.0
   - Name: ListBox1
     Type: ListBox
     Children:
@@ -2238,4 +2238,4 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 130.0
