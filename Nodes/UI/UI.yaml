@@ -257,6 +257,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Data Controls"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -272,6 +273,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Base Example"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -287,6 +289,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Alarms"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -302,6 +305,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"My Recipe"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
