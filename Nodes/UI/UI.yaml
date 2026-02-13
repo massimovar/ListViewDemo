@@ -127,6 +127,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 15.0
+      - Name: ActivePrimaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
   - Name: ChartStyles
     Type: BaseObjectType
     Children:
@@ -294,11 +298,27 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Alarms"}
+          Value: {"LocaleId":"en-US","Text":"Live Alarms"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/ListViewDemo/UI/Screens/alarms"
+          Value: "/Objects/ListViewDemo/UI/Screens/active_alarms"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Alarms History"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/ListViewDemo/UI/Screens/alarms_history"
           Children:
           - Name: Kind
             Type: PropertyType

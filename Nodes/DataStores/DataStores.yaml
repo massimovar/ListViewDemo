@@ -35,6 +35,10 @@ Children:
         - Name: Sine
           Type: StoreColumn
           DataType: Int32
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 10000
     - Name: AlarmsEventLogger1
       Type: SQLiteStoreTable
       Children:
@@ -83,6 +87,10 @@ Children:
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 10000
     - Name: Recipes
       Type: SQLiteStoreTable
       Children:
