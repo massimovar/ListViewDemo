@@ -8,6 +8,7 @@ Children:
   - Name: Pressure
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 10
   - Name: WaterLevel
     Type: BaseDataVariableType
     DataType: Int32
@@ -17,6 +18,7 @@ Children:
   - Name: Pressure
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 20
   - Name: WaterLevel
     Type: BaseDataVariableType
     DataType: Int32
@@ -26,6 +28,7 @@ Children:
   - Name: Pressure
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 30
   - Name: WaterLevel
     Type: BaseDataVariableType
     DataType: Int32
@@ -35,6 +38,7 @@ Children:
   - Name: Pressure
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 40
   - Name: WaterLevel
     Type: BaseDataVariableType
     DataType: Int32
@@ -60,6 +64,7 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 100
   - Name: Acceleration
     Type: BaseDataVariableType
     DataType: Int32
@@ -69,6 +74,7 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 200
   - Name: Acceleration
     Type: BaseDataVariableType
     DataType: Int32
@@ -78,6 +84,7 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 300
   - Name: Acceleration
     Type: BaseDataVariableType
     DataType: Int32
@@ -87,6 +94,7 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 400
   - Name: Acceleration
     Type: BaseDataVariableType
     DataType: Int32
@@ -96,6 +104,7 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 500
   - Name: Acceleration
     Type: BaseDataVariableType
     DataType: Int32
