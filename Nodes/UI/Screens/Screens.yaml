@@ -1836,7 +1836,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 32.0
   - Name: Switch1
     Type: Switch
     Children:
