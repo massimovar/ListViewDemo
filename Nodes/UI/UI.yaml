@@ -276,6 +276,22 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel6
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"ListView"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/ListViewDemo/UI/Screens/list_view_summary"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel1
         Type: NavigationPanelItem
         Children:
@@ -388,6 +404,10 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 150.0
+    - Name: Appearance
+      Type: BaseVariableType
+      DataType: String
+      ModellingRule: Optional
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - Name: MotorRow
