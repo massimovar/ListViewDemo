@@ -1239,7 +1239,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{RowItem}/Timestamp"
+            Value: "{RowItem}/Time"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
